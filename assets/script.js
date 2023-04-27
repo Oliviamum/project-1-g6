@@ -34,8 +34,9 @@ $("#search-btn").on("click", function (event) {
   var searchInput = $("#search-input").val(); //grab the value  from input field
   console.log(searchInput);
   //
-  var queryURL = "https://api.spoonacular.com/recipes/complexSearch?query=chicken&apiKey=946d18230eb44f9ea9732400786afe4c";
-  var cocktailURL = "the-cocktail-db.p.rapidapi.com?apiKey=52ba84ca8dmsh25283fe3edf5356p113f37jsn2a2c34c22856&s=vodka";
+  var queryURL = "https://api.spoonacular.com/recipes/complexSearch?query=chicken&apiKey=4d6dde6a774341059b3c12dd03afb0af";
+
+  var cocktailURL = "the-cocktail-db.p.rapidapi.com?apiKey=89d8bfed1bmsha9f6a214efc7f64p10306ejsn34129e2b3807";
 
   //Make ajax request to recipe API
   $.ajax({
